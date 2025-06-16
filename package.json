@@ -1,0 +1,75 @@
+{
+  "name": "ai-code-context",
+  "version": "1.0.0",
+  "description": "AI-powered code documentation that actually helps - automatically generate and maintain contextual documentation for code changes",
+  "main": "dist/cli.js",
+  "bin": {
+    "ai-context": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "ts-node src/cli.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "keywords": [
+    "ai",
+    "documentation",
+    "code-analysis",
+    "git",
+    "cli",
+    "developer-tools",
+    "automation",
+    "typescript",
+    "openai",
+    "anthropic"
+  ],
+  "author": "AI Code Context Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ai-code-context/ai-code-context.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ai-code-context/ai-code-context/issues"
+  },
+  "homepage": "https://github.com/ai-code-context/ai-code-context#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "simple-git": "^3.20.0",
+    "fs-extra": "^11.1.1",
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1",
+    "glob": "^10.3.10",
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^8.2.10",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.5",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}

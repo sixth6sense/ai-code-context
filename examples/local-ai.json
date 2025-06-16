@@ -1,0 +1,37 @@
+{
+  "aiProvider": "local",
+  "apiUrl": "http://localhost:11434/api/chat",
+  "model": "llama2",
+  "maxTokens": 1500,
+  "temperature": 0.2,
+  "autoCommitHook": true,
+  "includePatterns": [
+    "**/*.js",
+    "**/*.ts",
+    "**/*.py",
+    "**/*.java",
+    "**/*.cpp",
+    "**/*.c",
+    "**/*.h"
+  ],
+  "excludePatterns": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    ".git/**",
+    "**/*.test.*",
+    "**/*.spec.*",
+    "target/**",
+    "bin/**",
+    "obj/**"
+  ],
+  "outputFormat": "markdown",
+  "updateReadme": false,
+  "readmePath": "ANALYSIS.md",
+  "languages": ["javascript", "typescript", "python", "java", "cpp"],
+  "customPrompts": {
+    "codeAnalysis": "Analyze this code change and provide: 1. A concise summary of what changed, 2. The technical purpose and implementation approach, 3. Key modifications and their impact, 4. Any potential issues or improvements. Keep the analysis focused and practical for developers using a local AI model.",
+    "documentation": "Generate practical documentation for this code including: 1. What it does and why, 2. How to use or integrate it, 3. Important implementation details, 4. Dependencies and requirements. Be concise but comprehensive.",
+    "summary": "Provide a one-paragraph summary of this code change suitable for team communication and code reviews."
+  }
+}

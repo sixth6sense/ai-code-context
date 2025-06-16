@@ -1,0 +1,30 @@
+{
+  "aiProvider": "openai",
+  "model": "gpt-4",
+  "maxTokens": 2000,
+  "temperature": 0.3,
+  "autoCommitHook": false,
+  "includePatterns": [
+    "**/*.py"
+  ],
+  "excludePatterns": [
+    "venv/**",
+    "env/**",
+    ".venv/**",
+    "__pycache__/**",
+    "*.pyc",
+    ".git/**",
+    "test_*.py",
+    "*_test.py",
+    "tests/**"
+  ],
+  "outputFormat": "both",
+  "updateReadme": true,
+  "readmePath": "README.md",
+  "languages": ["python"],
+  "customPrompts": {
+    "codeAnalysis": "Analyze this Python code change and provide: 1. A clear summary of the functionality and algorithms used, 2. The purpose and business logic being implemented, 3. Key technical changes in Python patterns, data structures, or libraries, 4. Performance implications and memory usage considerations, 5. Error handling and edge cases covered. Focus on Python best practices, PEP compliance, and maintainability.",
+    "documentation": "Generate Python documentation that includes: 1. Function/class purpose with clear docstrings, 2. Parameter types and return values with examples, 3. Dependencies and import requirements, 4. Usage examples and common patterns, 5. Exception handling and error scenarios. Follow Python documentation standards and include type hints where applicable.",
+    "summary": "Provide a brief summary of this Python change suitable for commit messages, focusing on functionality, API changes, and any performance or compatibility implications."
+  }
+}

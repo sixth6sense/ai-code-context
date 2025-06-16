@@ -1,0 +1,31 @@
+{
+  "aiProvider": "openai",
+  "model": "gpt-4",
+  "maxTokens": 2000,
+  "temperature": 0.3,
+  "autoCommitHook": false,
+  "includePatterns": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "excludePatterns": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    ".git/**",
+    "**/*.test.*",
+    "**/*.spec.*",
+    "coverage/**"
+  ],
+  "outputFormat": "both",
+  "updateReadme": true,
+  "readmePath": "README.md",
+  "languages": ["javascript", "typescript"],
+  "customPrompts": {
+    "codeAnalysis": "Analyze this React/JavaScript code change and provide: 1. A clear summary focusing on component functionality, 2. The business purpose and user impact, 3. Key technical changes in React patterns, hooks, or state management, 4. Performance and accessibility considerations, 5. Integration points with other components or APIs. Be specific about React best practices and modern JavaScript patterns.",
+    "documentation": "Generate React component documentation that includes: 1. Component purpose and user-facing functionality, 2. Props interface and usage examples, 3. State management and lifecycle considerations, 4. Integration requirements (APIs, context, etc.), 5. Accessibility features and responsive behavior. Focus on helping other React developers use and maintain this component.",
+    "summary": "Provide a concise summary of this React/JavaScript change suitable for pull requests, focusing on user-facing features, component behavior, and any breaking changes."
+  }
+}
