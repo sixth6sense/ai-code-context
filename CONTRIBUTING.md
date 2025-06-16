@@ -7,7 +7,7 @@ Thank you for your interest in contributing to AI Code Context! This document pr
 1. **Fork and clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/ai-code-context.git
+   git clone https://github.com/mucahitgurbuz/ai-code-context.git
    cd ai-code-context
    ```
 
@@ -254,7 +254,7 @@ Before submitting:
 - **Questions**: Open a discussion
 - **Bugs**: Open an issue
 - **Features**: Open an issue or discussion
-- **Security**: Email security@ai-code-context.dev
+- **Security**: Email mucahitgurbuz@gmail.com
 
 ## Recognition
 

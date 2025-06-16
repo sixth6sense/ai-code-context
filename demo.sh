@@ -183,4 +183,4 @@ echo "   ai-context config --set aiProvider=anthropic"
 echo ""
 
 echo "🚀 Demo complete! Check out the project in: $(pwd)"
-echo "📚 Read the full documentation at: https://github.com/ai-code-context/ai-code-context"
+echo "📚 Read the full documentation at: https://github.com/mucahitgurbuz/ai-code-context"

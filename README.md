@@ -4,7 +4,7 @@
 
 [![npm version](https://badge.fury.io/js/ai-code-context.svg)](https://badge.fury.io/js/ai-code-context)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js CI](https://github.com/ai-code-context/ai-code-context/actions/workflows/ci.yml/badge.svg)](https://github.com/ai-code-context/ai-code-context/actions/workflows/ci.yml)
+[![Node.js CI](https://github.com/mucahitgurbuz/ai-code-context/actions/workflows/ci.yml/badge.svg)](https://github.com/mucahitgurbuz/ai-code-context/actions/workflows/ci.yml)
 
 ## The Problem
 
@@ -302,7 +302,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ### Development Setup
 
 ```bash
-git clone https://github.com/ai-code-context/ai-code-context.git
+git clone https://github.com/mucahitgurbuz/ai-code-context.git
 cd ai-code-context
 npm install
 npm run build
@@ -338,10 +338,10 @@ MIT © [AI Code Context Contributors](LICENSE)
 
 ## 🙋‍♂️ Support
 
-- 📚 [Documentation](https://github.com/ai-code-context/ai-code-context/wiki)
-- 🐛 [Issue Tracker](https://github.com/ai-code-context/ai-code-context/issues)
-- 💬 [Discussions](https://github.com/ai-code-context/ai-code-context/discussions)
-- 📧 [Email Support](mailto:support@ai-code-context.dev)
+- 📚 [Documentation](https://github.com/mucahitgurbuz/ai-code-context/wiki)
+- 🐛 [Issue Tracker](https://github.com/mucahitgurbuz/ai-code-context/issues)
+- 💬 [Discussions](https://github.com/mucahitgurbuz/ai-code-context/discussions)
+- 📧 [Email Support](mailto:mucahitgurbuz@gmail.com)
 
 ---
 
