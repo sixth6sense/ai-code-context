@@ -279,7 +279,7 @@ Focus on helping developers understand the change quickly and effectively.`;
       .filter((line) => line.length > 0)
       .map((line) => {
         // Remove bullet points and numbering
-        return line.replace(/^[\-\*\+\d]+\.?\s*/, "").trim();
+        return line.replace(/^[-*+\d]+\.?\s*/, "").trim();
       })
       .filter((line) => line.length > 0);
 
