@@ -5,16 +5,19 @@ This directory contains example configurations for different project types and s
 ## Configuration Examples
 
 ### React/TypeScript Projects
+
 - **File:** `react-project.json`
 - **Use case:** React applications with TypeScript
 - **Features:** React-specific prompts, component analysis, modern JavaScript patterns
 
 ### Python Projects
+
 - **File:** `python-project.json`
 - **Use case:** Python applications and libraries
 - **Features:** Python-specific analysis, PEP compliance, type hints documentation
 
 ### Local AI Setup
+
 - **File:** `local-ai.json`
 - **Use case:** Privacy-focused setup with local AI models (Ollama)
 - **Features:** No external API calls, reduced token usage, auto-commit analysis
@@ -29,6 +32,7 @@ This directory contains example configurations for different project types and s
 ## Customization Tips
 
 ### Custom Prompts
+
 Tailor the AI prompts to your project's specific needs:
 
 ```json
@@ -42,6 +46,7 @@ Tailor the AI prompts to your project's specific needs:
 ```
 
 ### File Patterns
+
 Adjust include/exclude patterns for your project structure:
 
 ```json
@@ -52,6 +57,7 @@ Adjust include/exclude patterns for your project structure:
 ```
 
 ### Output Formats
+
 Choose how you want the analysis delivered:
 
 - `"markdown"` - Markdown format only
@@ -61,6 +67,7 @@ Choose how you want the analysis delivered:
 ## Framework-Specific Examples
 
 ### Next.js
+
 ```json
 {
   "includePatterns": ["pages/**/*.tsx", "components/**/*.tsx", "lib/**/*.ts"],
@@ -71,6 +78,7 @@ Choose how you want the analysis delivered:
 ```
 
 ### Express.js API
+
 ```json
 {
   "includePatterns": ["routes/**/*.js", "middleware/**/*.js", "models/**/*.js"],
@@ -81,6 +89,7 @@ Choose how you want the analysis delivered:
 ```
 
 ### Django
+
 ```json
 {
   "includePatterns": ["**/*.py"],

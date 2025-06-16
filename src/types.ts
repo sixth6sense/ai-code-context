@@ -1,5 +1,5 @@
 export interface AICodeContextConfig {
-  aiProvider: 'openai' | 'anthropic' | 'local';
+  aiProvider: "openai" | "anthropic" | "local";
   apiKey?: string;
   apiUrl?: string;
   model?: string;
@@ -8,7 +8,7 @@ export interface AICodeContextConfig {
   autoCommitHook?: boolean;
   includePatterns?: string[];
   excludePatterns?: string[];
-  outputFormat?: 'markdown' | 'comments' | 'both';
+  outputFormat?: "markdown" | "comments" | "both";
   updateReadme?: boolean;
   readmePath?: string;
   languages?: string[];
@@ -28,7 +28,7 @@ export interface GitDiffResult {
 }
 
 export interface GitChange {
-  type: 'addition' | 'deletion' | 'modification';
+  type: "addition" | "deletion" | "modification";
   lineNumber: number;
   content: string;
   context?: string[];

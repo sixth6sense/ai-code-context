@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2024-01-15
 
 ### Added
+
 - 🎉 Initial release of AI Code Context
 - 🤖 Support for OpenAI GPT-4 and GPT-3.5 models
 - 🎭 Support for Anthropic Claude models
@@ -24,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 🔄 CI/CD pipeline with GitHub Actions
 
 ### CLI Commands
+
 - `ai-context init` - Initialize project with interactive setup
 - `ai-context analyze` - Analyze code changes with various options
 - `ai-context watch` - Set up automatic analysis on commits
@@ -31,6 +33,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `ai-context status` - Show project status and configuration
 
 ### Features
+
 - **Smart Analysis**: Understands code context, purpose, and impact
 - **Git Integration**: Analyzes commits, staged/unstaged changes
 - **Auto-Documentation**: Updates README.md with analysis results
@@ -40,6 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Error Handling**: Comprehensive error messages and validation
 
 ### Technical
+
 - Built with TypeScript for type safety
 - Commander.js for CLI interface
 - simple-git for git operations
@@ -51,6 +55,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Planned
+
 - VS Code extension integration
 - Support for additional AI providers (Google PaLM, etc.)
 - Batch analysis for large codebases

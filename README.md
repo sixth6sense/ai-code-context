@@ -17,7 +17,7 @@ Developers spend **30%+ of their time** understanding existing code and writing 
 ## ✨ Features
 
 - 🔍 **Smart Code Analysis** - Analyzes git diffs and understands code changes in context
-- 📝 **Auto-Documentation** - Generates clear, helpful documentation automatically  
+- 📝 **Auto-Documentation** - Generates clear, helpful documentation automatically
 - 🔗 **Git Integration** - Hooks into your git workflow for seamless analysis
 - 🧠 **Multiple AI Providers** - Works with OpenAI, Anthropic, or local models
 - 🎯 **Language Agnostic** - Supports any programming language
@@ -93,6 +93,7 @@ Analyzed 3 file(s) with AI-powered code analysis.
 **Purpose:** Create a reusable user profile component for displaying user information with editing capabilities
 
 **Key Changes:**
+
 - Implemented UserProfile React component with TypeScript
 - Added avatar image display with fallback to initials
 - Integrated edit mode toggle for profile information
@@ -101,6 +102,7 @@ Analyzed 3 file(s) with AI-powered code analysis.
 **Impact:** Enables user profile functionality across the application with consistent UI/UX
 
 **Suggestions:**
+
 - Consider adding loading states for async operations
 - Add unit tests for form validation logic
 - Consider extracting avatar logic into separate component for reusability
@@ -127,18 +129,18 @@ Create `.aicontext.json` in your project root:
 
 ## 🎛️ Configuration Options
 
-| Option | Description | Default |
-|--------|-------------|---------|
-| `aiProvider` | AI provider: `openai`, `anthropic`, `local` | `openai` |
-| `model` | AI model to use | `gpt-4` |
-| `apiKey` | API key for AI provider | env var |
-| `maxTokens` | Maximum tokens per request | `2000` |
-| `temperature` | AI creativity (0-1) | `0.3` |
-| `autoCommitHook` | Auto-analyze on commits | `false` |
-| `includePatterns` | Files to analyze | `["**/*.js", "**/*.ts", ...]` |
-| `excludePatterns` | Files to ignore | `["node_modules/**", ...]` |
-| `outputFormat` | Output format: `markdown`, `comments`, `both` | `both` |
-| `updateReadme` | Auto-update README.md | `true` |
+| Option            | Description                                   | Default                       |
+| ----------------- | --------------------------------------------- | ----------------------------- |
+| `aiProvider`      | AI provider: `openai`, `anthropic`, `local`   | `openai`                      |
+| `model`           | AI model to use                               | `gpt-4`                       |
+| `apiKey`          | API key for AI provider                       | env var                       |
+| `maxTokens`       | Maximum tokens per request                    | `2000`                        |
+| `temperature`     | AI creativity (0-1)                           | `0.3`                         |
+| `autoCommitHook`  | Auto-analyze on commits                       | `false`                       |
+| `includePatterns` | Files to analyze                              | `["**/*.js", "**/*.ts", ...]` |
+| `excludePatterns` | Files to ignore                               | `["node_modules/**", ...]`    |
+| `outputFormat`    | Output format: `markdown`, `comments`, `both` | `both`                        |
+| `updateReadme`    | Auto-update README.md                         | `true`                        |
 
 ## 🧠 AI Provider Setup
 
@@ -266,7 +268,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: "18"
       - run: npm install -g ai-code-context
       - run: ai-context analyze --commit ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }}
         env:
