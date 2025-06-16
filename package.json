@@ -1,6 +1,6 @@
 {
   "name": "ai-code-context",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI-powered code documentation that actually helps - automatically generate and maintain contextual documentation for code changes",
   "main": "dist/cli.js",
   "bin": {
