@@ -1,6 +1,6 @@
 {
   "name": "ai-code-context",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AI-powered code documentation that actually helps - automatically generate and maintain contextual documentation for code changes",
   "main": "dist/cli.js",
   "bin": {
@@ -34,12 +34,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ai-code-context/ai-code-context.git"
+    "url": "git+https://github.com/mucahitgurbuz/ai-code-context.git"
   },
   "bugs": {
-    "url": "https://github.com/ai-code-context/ai-code-context/issues"
+    "url": "https://github.com/mucahitgurbuz/ai-code-context/issues"
   },
-  "homepage": "https://github.com/ai-code-context/ai-code-context#readme",
+  "homepage": "https://github.com/mucahitgurbuz/ai-code-context#readme",
   "engines": {
     "node": ">=16.0.0"
   },
